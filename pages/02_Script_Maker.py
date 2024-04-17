@@ -21,8 +21,8 @@ from langchain_community.document_transformers import BeautifulSoupTransformer
 import insert_logo
 
 import os
-os.system("playwright install")
-os.system("playwright install-deps")
+#os.system("playwright install")
+#os.system("playwright install-deps")
 
 #asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 strict_llm = ChatOpenAI(
