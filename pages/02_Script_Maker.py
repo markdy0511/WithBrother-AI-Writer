@@ -20,7 +20,7 @@ from langchain.document_loaders import AsyncChromiumLoader
 from langchain_community.document_transformers import BeautifulSoupTransformer
 import insert_logo
 
-asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
+#asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 strict_llm = ChatOpenAI(
     model="gpt-4-1106-preview",
     temperature=0,
